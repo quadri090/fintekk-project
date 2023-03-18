@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Fintekk</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <header class="sm:h-[122px] w-full">
+      <div class="">
+        <nav class="p-5  bg-white w-full mt-0 h-16 sm:h-28 md:h-[96px] md:m-auto sm:grid sm:grid-rows-2 z-10 sm:justify-center top-0 fixed sm:items-center md:flex md:justify-between">
+          <div class="flex justify-between sm:justify-center md:ml-24 md:my-auto sm:items-center">
+              <figure id="logo" class="w-[91px] h-[34px]">
+                  <img src="img/Fintekk.png" alt="" class="m-auto pt-[5px]">
+              </figure>
+              <div class="mx-2 cursor-pointer sm:hidden">
+                  <i id="icon" class="fa fa-bars fa-2x" aria-hidden="true"></i>
+              </div>
+          </div>
+
+          <div id="navigation" class="sm:flex text-[24x] sm:text-[18px] md:text-[24px] font-light sm:justify-center md:justify-between  sm-items-center z-[-1] sm:z-auto  sm:static absolute w-full left-0 sm:w-[700px] md:w-[1151px] md:m-auto sm:py-6 md:py-0 pt-36 pb-64 sm:opacity-100 h-[883px] sm:h-12 opacity-0 top-[-1000px] bg-white transition-all ease-in duration-500 cursor-pointer">
+            <ul class="sm:flex m-auto md:ml-[171px] sm:w-[442px]">
+                <li class="mx-4 sm:mx-4 my-8 sm:my-0 md:my-0 text-center">
+                    <a class="" href="#about">Home</a>
+                </li>
+                <li class="mx-4 sm:mx-4 my-8 sm:my-0 text-center">
+                    <a class="hover:text-zinc-400" href="#skills">About</a>
+                </li>
+                <li class="mx-4 sm:mx-4 my-8 sm:my-0 text-center">
+                    <a class="hover:text-zinc-400" href="#projects">FAQs</a>
+                </li>
+                <li class="mx-4 sm:mx-4 my-8 sm:my-0 text-center">
+                    <a class="hover:text-zinc-400" href="#contacts">Contact Us</a>
+                </li>
+            </ul>
+            <div class="sm:flex mx-4 sm:mx-4 md:ml-36 md:mr-28 sm:w-[300px] my-8 sm:my-0 text-center">
+              <div class="flex items-center justify-center md:text-[21px] md:leading-[26px] text-blue-500 md:h-12 h-8 w-20 md:w-24 m-auto rounded-md border-[1px] border-blue-600">
+                <button>Login</button>
+              </div>
+              <div class="flex items-center justify-center my-8 sm:my-auto md:text-[21px] md:leading-[26px] m-auto w-36 md:w-48 md:h-12 h-8 sm:ml-8 text-white text-center bg-blue-600 rounded-md">
+                <button>SignUp for Free</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </div>
+    </header>
+
+    <main class="mt-24 text-center md:text-left relative">
+      <!-- first group -->
+      <div class="md:grid grid-cols-2 md:h-[600px] md:mt-[80px]">
+
+        <!-- first column -->
+        <div class="md:ml-[120px]">
+          <div class="w-[314px] md:w-[503px] h-[168px] md:h-[255px] m-auto md:ml-0 md:mt-[30px] font-medium text-[38px] md:text-[67px] leading-[56px] md:leading-[85px]" style="color: #172E80; font-family: Product Sans Medium;">
+            <p>Pay, Invest, Save your Cash with a single bank</p>
+          </div>
+          <div class="mt-6 mx-auto md:ml-0 w-[316px] sm:w-[503px] h-[60px] sm:h-[68px] font-normal text-[16px] sm:text-[24px] leading-[30px] sm:leading-[34px] md:text-left">
+            <p>Fintekk is the bank that does it all. manage everything directly and easy with fintekk</p>
+          </div>
+          <div class="flex items-center justify-center m-auto md:ml-0 my-8 sm:my-auto mt-6 sm:mt-8 w-[199px] md:w-48 md:h-12 h-[58px] text-white text-center bg-blue-600 rounded-2xl">
+            <button>SignUp for Free</button>
+          </div>
+          <div class="sm:flex items-center justify-center sm:gap-4 sm:h-[50px] sm:w-[368px] sm:mt-[42px] sm:mx-auto md:mx-0 md:ml-0">
+            <div class="w-[178px] h-[50px] flex items-center justify-center mx-auto md:ml-0 rounded-2xl mt-[34px] sm:mt-0 gap-3 border-[1px] border-zinc-500">
+              <i class="fa fa-google"></i>
+              <p>Get on Android</p>
+            </div>
+            <div class="w-[178px] h-[50px] flex items-center justify-center mx-auto md:ml-0 rounded-2xl mt-[16px] sm:mt-0 gap-3 border-[1px] border-zinc-500">
+              <i class="fa fa-apple"></i>
+              <p>Get on iphone</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- second column -->
+        <div class="w-full sm:h-[328px] md:h-[600px] outline">
+          <div class="mt-[95px] md:mt-0 bg-slate-100 rounded-3xl w-[280px] md:w-[500px] h-[328px] md:h-[600px] m-auto">
+            <div class="grid grid-rows-3 h-[500px] bg-no-repeat bg-top w-full bg-[length:250px_328px] mt-[28p] lg:bg-auto lg:h-[600px] 2xl:w-full" style="background-image:url(img/background.png);">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second group -->
+      <div>
+        <div class="flex justify-between items-center mt-8 md:mt-16 md:px-[120px] h-[120px] w-full sm:w-[650px] md:w-full overflow-x-auto sm:overflow-x-hidden space-x-10">
+          <img src="img/Group.png" alt="" class="w-[108px] md:w-[174px] h-[19px] md:h-[31px] ">
+          <img src="img/CNBC logo.png" alt="" class="w-[31px] md:w-[43px] h-[24px] md:-[32px] ">
+          <img src="img/Forbes logo.png" alt="" class="w-[72px] md:w-[144px] h-[24px] md:h-[48px] ">
+          <img src="img/stripe logo.png" alt="" class="w-[52px] md:w-[103px] h-[22px] md:h-[43px] ">
+          <img src="img/Quartz logo.png" alt="" class="w-[104px] md:w-[154px] h-[] md:h-[24px] ">
+        </div>
+        <div class="flex items-center justify-center  md:h-[330px]">
+          <div class="w-[300px] sm:w-[500px] md:w-[720px] h-[132px] md:h-[144px] m-auto text-[28px] md:text-[50px] font-bold leading-[44px] md:leading-[72px] text-center" style="color: #172E80;">
+            <p>More than <span style="color: #6381eb;">10,000</span> active users trust Fintekk</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-0 md:px-[120px]" style="background-color: #FBFBFB;">
+        <div class="flex flex-col items-center justify-center mx-auto mt-[60px] md:mt-24 w-[300px] sm:w-full h-[171px]">
+          <p class="w-[116px] sm:w-[158px] h-[19px] sm:h-[29px] my-[8px] font-normal text-[16px] sm:text-[24px] leading-[19px] sm:leading-[29px]">OUR SERVICES</p>
+          <p class="w-[239px] sm:w-[315px] h-[46px] sm:h-[61px] my-[8px] font-medium text-[38px] sm:text-[50px] leading-[46px] sm:leading-[61px]" style="color: #172E80; font-family: product sans;">What we offer</p>
+          <p class="w-[315px] sm:w-[600px] md:w-[700px] h-[90px] sm:h-[64px] my-[8px] font-normal text-[16px] sm:text-[20px] leading-[30px] sm:leading-[32px] text-center">We help individuals become more flexible and responsible with their finances and handle  payments smooth and easy. </p>
+        </div>
+
+        <div class="flex flex-col md:flex-row gap-8 md:gap-12 mt-12">
+          <div class="w-[315px] h-[430px] mx-auto text-left rounded-[30px] md:w-[368px] md:h-[548px]" style="background:#F4F6FF;">
+            <div class="pl-6 pt-6">
+              <div class="w-[184px] md:w-[236px] h-[34px] md:h-[46px] font-medium text-[28px] md:text-[38px] leading-[34px] md:leading-[46px]" style="color: #172E80;">
+                <P>Easy Payment</P>
+              </div>
+              <div class="w-[267px] md:w-[320px] h-[60px] font-normal md:font-light my-4 text-[16px] md:text-[20px] leading-[30px]">
+                <P>Stress-free payment for all transactions that you do at any time.</P>
+              </div>
+              <div  class="w-[150px] h-[22px] font-medium text-[18px] leading-[22px]" style="color: #172E80;">
+                <a href="">Read more<i class="fa fa-long-arrow-right ml-[10px] pt-[10px]"></i></a>
+              </div>
+            </div>
+            <div class="w-[174px] md:w-[217px] h-[200px] md:h-[250px] mx-auto mt-[33px] ">
+              <img src="img/bro.png" alt="" class="md:h-[250px] md:mt-[57px]">
+            </div>
+          </div>
+
+          <div class="w-[315px] h-[430px] mx-auto text-left rounded-[30px] md:w-[368px] md:h-[548px]" style="background: #FEF7F1;">
+            <div class="pl-6 pt-6">
+              <div class="w-[174px] md:w-[210px] h-[34px] md:h-[46px] font-medium text-[28px] md:text-[38px] leading-[34px] md:leading-[46px]" style="color: #172E80;">
+                <P>Investments</P>
+              </div>
+              <div class="w-[267px] md:w-[320px] h-[60px] font-normal md:font-light my-4 text-[16px] md:text-[20px] leading-[30px]">
+                <P>Grow your money by investing in pre-vetted investment opportunities.</P>
+              </div>
+              <div  class="w-[150px] h-[22px] font-medium text-[18px] leading-[22px]" style="color: #172E80;">
+                <a href="">Read more<i class="fa fa-long-arrow-right ml-[10px] pt-[10px]"></i></a>
+              </div>
+            </div>
+            <div class="w-[236px] md:w-[295px] h-[200px] md:h-[250px] mx-auto mt-[33px] md:mt-[57px]">
+              <img src="img/Frame 721.png" alt="">
+            </div>
+          </div>
+
+          <div class="w-[315px] h-[430px] mx-auto text-left rounded-[30px] md:w-[368px] md:h-[548px]" style="background:#F4F6FF;">
+            <div class="pl-6 pt-6">
+              <div class="w-[174px] md:w-[229px] h-[34px] md:h-[46px] font-medium text-[28px] md:text-[38px] leading-[34px] md:leading-[46px]" style="color: #172E80;">
+                <P>Fixed Savings</P>
+              </div>
+              <div class="w-[267px] md:w-[320px] h-[60px] font-normal md:font-light my-4 text-[16px] md:text-[20px] leading-[30px]">
+                <P>Build a dedicated savings faster on your terms automatically or manually.</P>
+              </div>
+              <div  class="w-[150px] h-[22px] font-medium text-[18px] leading-[22px]" style="color: #172E80;">
+                <a href="#">Read more<i class="fa fa-long-arrow-right ml-[10px] pt-[10px]"></i></a>
+              </div>
+            </div>
+            <div class="w-[219px] md:w-[274px] h-[200px] md:h-[250px] mx-auto mt-[33px] md:mt-[57px]">
+              <img src="img/Frame 720.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sm:grid grid-cols-2 mt-16 md:h-[1085px] md:w-full">
+        <div class="mx-auto sm:mt-[187px]">
+          <img src="img/Fintekk app- phone.png" alt="" class="w-[250px] md:w-[377px] h-[505px] md:h-[762px] mx-auto">
+        </div>
+        <div class="" style="font-family: product sans;">
+          <div class="w-[315px] md:w-[638px] h-[132px] md:h-36 mx-auto md:mx-0 mt-[80px] md:mt-24 font-medium text-[28px] md:text-[50px] leading-[44px] md:leading-[72px]" style="color: #172E80;">
+            <p class="px-[10px]">Start the journey to reach your financial goals today.</p>
+          </div>
+          <div class="flex w-[300px] md:w-[540px] gap-[28px] mt-12 mx-auto md:mx-[8px]">
+            <div class="w-[22px]">
+              <p style="color: #2E5CFF;">01</p>
+              <div class="border-l-[1px] h-[80px] md:h-[140px] mt-6 ml-[6px]" style="border-color: #2E5CFF;"></div>
+            </div>
+
+            <div class="text-left" style="font-family: product sans light;">
+              <p class="font-medium text-[21px] leading-[25px]" style="color: #172E80;">Download the mobile app</p>
+              <p class="font-light text-[18px] md:text-[28px] leading-[32px] md:leading-[40px] mt-4">Sign up for an account with your name, email  and phone number.</p>
+            </div>
+          </div>
+          <div class="flex w-[300px] md:w-[540px] gap-[28px] mt-12 mx-auto md:mx-[8px]">
+            <div class="w-[22px]">
+              <p style="color: #2E5CFF;">02</p>
+              <div class="border-l-[1px] h-[80px] md:h-[140px] mt-6 ml-[6px]" style="border-color: #2E5CFF;"></div>
+            </div>
+
+            <div class="text-left">
+              <p class="font-medium text-[21px] leading-[25px]" style="color: #172E80;">Create a free account</p>
+              <p class="font-light text-[18px] md:text-[28px] leading-[32px] md:leading-[40px] mt-4">Sign up for an account with your name, email  and phone number.</p>
+            </div>
+          </div>
+          <div class="flex w-[300px] md:w-[540px] gap-[28px] mt-12 mx-auto md:mx-[8px]">
+            <div class="w-[22px]">
+              <p style="color: #2E5CFF;">03</p>
+            </div>
+
+            <div class="text-left">
+              <p class="font-medium text-[21px] leading-[25px]" style="color: #172E80;">Add a payment method</p>
+              <p class="font-light text-[18px] md:text-[28px] leading-[32px] md:leading-[40px] mt-4">Using your debit card, bank account, QR code, perform your first transaction.</p>
+            </div>
+          </div>
+          <div class="flex items-center justify-center mx-auto sm:mx-4 md:mx-auto my-8 mt-16 md:mt-[80px] w-[177px] md:w-48 md:h-[58px] h-[54px] font-medium text-[18px] leading=[22px] text-white text-center bg-blue-600 rounded-2xl">
+            <button class="flex md:hidden">Try Fintekk Now</button>
+            <button class="hidden md:flex">Download Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-16 sm:flex sm:flex-row-reverse sm:items-center sm:justify-center">
+        <div class="w-full h-[424px] md:w-[658px] md:h-[745px]" style="background-color: #F9F9F9;">
+          <img src="img/pana.png" alt="" class="w-[331px] h-[329px] md:w-[581px] md:h-[579px] m-auto md:my-[83px]">
+        </div>
+        <div id="box-container" class="w-full h-[359px] m-auto md:w-[782px] md:h-[745px] text-white" style="background-color: #2E5CFF;">
+          <div class="pt-[60px] w-[315px] md:pt-[80px] mx-auto md:mx-auto md:my-[140px] md:w-[542px] md:h-[464px] md:flex flex-col justify-items-center items-center">
+            <p class="font-medium text-[38px] md:text-[67px] text-left leading-[46px] md:flex  md:leading-[81px] md:mx-auto">FAQ's</p>
+            <div id="box" class="flex justify-between items-center px-[10px] border-[1px] border-white w-[315px] md:w-[542px] h-12 md:h-16 mt-[20px] rounded-lg">
+              <p>Is fintekk’s security guaranteed?</p>
+              <i id="chev1" class="fa fa-chevron-down"></i>
+            </div>
+
+            <p id="chevp1" class="hidden w-[315px] md:w-[542px] h-[100px] bg-white text-blue-500 rounded-lg items-center justify-center text-[14px] leading-[24px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+
+            <div id="box1" class="flex justify-between items-center px-[10px] border-[1px] border-white w-[315px] md:w-[542px] h-12 md:h-16 mt-[20px] rounded-lg">
+              <p>How to activate Fintekk account</p>
+              <i id="chev2" class="fa fa-chevron-down"></i>
+            </div>
+
+            <p id="chevp2" class="hidden w-[315px] md:w-[542px] h-[100px] bg-white text-blue-500 rounded-lg items-center justify-center text-[14px] leading-[24px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+
+            <div id="box2" class="flex justify-between items-center px-[10px] border-[1px] border-white w-[315px] md:w-[542px] h-12 md:h-16 mt-[20px] rounded-lg">
+              <p>What should I do if I forget my pin?</p>
+              <i id="chev3" class="fa fa-chevron-down"></i>
+            </div>
+
+            <p id="chevp3" class="hidden w-[315px] md:w-[542px] h-[100px] bg-white text-blue-500 rounded-lg items-center justify-center text-[14px] leading-[24px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="mt-16 md:mt-[120px] h-[644px] md:h-[418px] w-full md:px-[120px] md:flex">
+        <div class="mt-[60px] md:mt-0 md:w-[604px] md:h-[221px]">
+          <div class="mt-0 w-[107px] md:w-[161px] h-[19px] md:h-[29px] m-auto md:mx-0 md:mt-[10px] font-normal text-[16px] md:text-[24px] leading-[19px] md:leading-[29px]">
+            <p>TESTIMONIALS</p>
+          </div>
+          <div class="mt-[8px] w-[315px] md:w-[482px] h-[150px] md:h-[122px] m-auto md:mx-0 md:my-[10px] font-medium text-[38px] md:text-[50px] leading-[50px] md:leading-[61px]" style="color: #172E80;">
+            <p>What Our Customers Say About Us</p>
+          </div>
+        </div>
+        <div class="mt-6 md:mt-0 md:flex md:flex-row h-[281px] md:h-[221px]">
+          <div class="flex md:flex-col justify-between w-full md:w-[604px] md:h-[221px]  overflow-x-auto">
+            <!-- review-1 -->
+            <div class="mt-0 mx-[70px] md:mx-[24px] md:text-left">
+              <div class="mt-[34px] w-[267px] md:w-[556px] h-[120px] md:h-[60px] mx-auto font-light text-[16px] md:text-[20px] leading-[30px]">
+                <p>Dealt with enquiries and subsequent transactions efficiently and quickly. I’m  so pleased with the pricing and service.</p>
+              </div>
+              <div class="mt-[20px] w-[200px] h-[63px] m-auto md:mx-0">
+                <div class="w-[200px] h-[29px] font-normal text-left text-[24px] leading-[29px]" style="color: #172E80;">
+                  <p>Maryam Adegoke</p>
+                </div>
+                <div class="mt-[10px] h-6 w-[200px] text-left">
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <!-- review-2 -->
+            <div class="mt-0 mx-[70px] md:mx-[24px] md:text-left">
+              <div class="mt-[34px] w-[267px] md:w-[556px] h-[120px] md:h-[60px] mx-auto font-light text-[16px] md:text-[20px] leading-[30px]">
+                <p>Dealt with enquiries and subsequent transactions efficiently and quickly. I’m  so pleased with the pricing and service.</p>
+              </div>
+              <div class="mt-[20px] w-[200px] h-[63px] m-auto md:mx-0">
+                <div class="w-[200px] h-[29px] font-normal text-left text-[24px] leading-[29px]" style="color: #172E80;">
+                  <p>Quadri Jamal</p>
+                </div>
+                <div class="mt-[10px] h-6 w-[200px] text-left">
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+            <!-- review-3 -->
+            <div class="mt-0 mx-[70px] md:mx-6 md:my-12 md:text-left">
+              <div class="mt-[34px] w-[267px] md:w-[556px] h-[120px] md:h-[60px] mx-auto font-light text-[16px] md:text-[20px] leading-[30px]">
+                <p>Dealt with enquiries and subsequent transactions efficiently and quickly. I’m  so pleased with the pricing and service.</p>
+              </div>
+              <div class="mt-[20px] w-[200px] h-[63px] m-auto md:mx-0">
+                <div class="w-[200px] h-[29px] font-normal text-left text-[24px] leading-[29px]" style="color: #172E80;">
+                  <p>Asare Brave</p>
+                </div>
+                <div class="mt-[10px] h-6 w-[200px] text-left">
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star text-yellow-500" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- testimonials navigation -->
+          <div class="flex md:flex-col justify-between items-center w-[170px] md:w-4 h-4 md:h-[221px] mx-auto mt-[33px] md:mt-0"  style="color: #172E80;">
+            <img src="img/Arrow 6.png" alt="" class="md:rotate-90">
+            <div class="">
+              <p>1</p>
+            </div>
+            <div class="">
+              <p>2</p>
+            </div>
+            <div class="">
+              <p>3</p>
+            </div>
+            <img src="img/Arrow 7.png" alt="" class="md:rotate-90">
+          </div>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="w-[315px] md:w-[1200px] h-[368px] md:h-[380px] rounded-3xl" style="background-color: #2E5CFF;">
+          <div class="w-[267px] md:w-[432px] h-[138px] md:h-[122px] mt-12 md:mt-[85px] mx-auto font-bold text-[38px] md:text-[50px] leading-[46px] md:leading-[61px] text-left md:text-center text-white">
+            <p>Start growing your wealth today</p>
+          </div>
+          <div class="md:flex md:mt-[27px] md:w-[648px] md:h-[58px] md:mx-auto md:border-[1px] md:rounded-[30px]">
+            <input type="email" placeholder="Enter your email address" class="bg-inherit w-[267px] md:w-full h-12 md:h-[58px] md:mt-0 mt-4 mx-auto md:ml-6 border-[1px] md:border-none md:outline-none rounded-xl my-4"></input>
+            <button type="button" class="flex justify-center items-center bg-white w-[117px] md:w-[135px] h-[51px] md:h-[58px] mt-4 md:mt-0 ml-6 font-medium text-[16px] md:text-[21px] leading-[19px] md:leading-[26px] rounded-2xl md:rounded-[30px] text-[#172E80]">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class=" absolute w-full text-[#172E80] font-light md:text-[20px] md:leading-[24px] h-[753px] md:h-[548px] mt-16 md:mt-[120px]">
+      <div class="w-full  md:flex justify-between md:px-[120px]">
+        <div class="mx-[30px] md:mx-0 pt-[70px] md:pt-0 md:mt-[45px] md:w-[360px]">
+          <img src="img/Fintekk.png" alt="" class="">
+          <p class="font-light text-[16px] md:text-[20px] leading-[28px] md:leading-[32px] mt-[4px]">Fintekk is the bank that does it all. Manage everything directly and easy with fintekk.</p>
+        </div>
+        <div class="md:w-[660px] grid grid-cols-2 justify-center mx-[30px] md:ml-auto mt-[45px] md:flex md:justify-between">
+          <div class="w-[117px] md:w-[146px]">
+            <p class="font-medium text-[16px] md:text-[20px] leading-[19px] md:leading-[24px]">Company</p>
+            <p class="md:mt-6">Careers</p>
+            <p class="md:mt-6">About Us</p>
+            <p class="md:mt-6">Privacy</p>
+            <p class="md:mt-6">Terms</p>
+          </div>
+          <div class="w-[117px] md:w-[146px] mx-auto md:mx-0">
+            <p class="font-medium text-[16px] md:text-[20px] leading-[19px] md:leading-[24px]">Services</p>
+            <p class="md:mt-6">Payments</p>
+            <p class="md:mt-6">Investments</p>
+            <p class="md:mt-6">Savings Plan</p>
+          </div>
+          <div class="w-[117px] md:w-[146px] mt-[35px] md:mt-0">
+            <p class="font-medium text-[16px] md:text-[20px] leading-[19px] md:leading-[24px]">Resources</p>
+            <p class="md:mt-6">Media</p>
+            <p class="md:mt-6">FAQ's</p>
+            <p class="md:mt-6">Help Centre</p>
+            <p class="md:mt-6">Security</p>
+          </div>
+          <div class="w-[117px] md:w-[146px] mt-[35px] md:mt-0 mx-auto md:mx-0">
+            <p class="font-medium text-[16px] md:text-[20px] leading-[19px] md:leading-[24px]">Contact Us</p>
+            <div class="md:mt-6">
+              <a href="#">www.fintekk.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mx-[30px] md:mx-[120px] mt-12 md:mt-[100px] flex justify-between font-normal text-[16px] leading-[19px]">
+        <div class="flex justify-between">
+          <p>Copyright 2022 fintekk.</p>
+          <span>All rights reserved</span>
+        </div>
+        <div class="hidden sm:flex">
+          <a href="#">Terms and Conditions,</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+
+    <div id="app"></div>
+<script>
+const icon = document.getElementById('icon');
+const nav = document.getElementById('navigation');
+const main = document.querySelector('main');
+const container = document.getElementById('container');
+
+//this line code makes the navigation section appear. it also toggles the font-awesome menu icon class to a close icon class
+icon.addEventListener('click', function() {
+    icon.classList.toggle('fa-bars');
+    icon.classList.toggle('fa-times');
+    nav.classList.toggle('opacity-0');
+    nav.classList.toggle('opacity-100');
+    nav.classList.toggle('top-[-400px]');
+    nav.classList.toggle('top-[80px]');
+    main.classList.toggle('relative');
+    main.classList.toggle('fixed');
+    nav.classList.toggle('z-[-1]');
+    nav.classList.toggle('z-10')
+});
+
+// This line of code toggles the font awesome close icon class back to menu icon and makes the navigation section disappear on click of the body of ul selector and any element nested within it.
+nav.addEventListener('click', function() {
+    nav.classList.toggle('opacity-100');
+    nav.classList.toggle('opacity-0');
+    nav.classList.toggle('top-[80px]');
+    nav.classList.toggle('top-[-400px]');
+    nav.classList.toggle('z-10')
+    nav.classList.toggle('z-[-1]');
+    icon.classList.toggle('fa-times');
+    icon.classList.toggle('fa-bars');
+    main.classList.toggle('fixed');
+    main.classList.toggle('relative');
+});
+
+const box = document.getElementById('box');
+const box1 = document.getElementById('box1');
+const box2 = document.getElementById('box2');
+const boxContainer = document.getElementById('box-container');
+const chev1 = document.getElementById('chev1');
+const chev2 = document.getElementById('chev2');
+const chev3 = document.getElementById('chev3');
+const chevp1 = document.getElementById('chevp1');
+const chevp2 = document.getElementById('chevp2');
+const chevp3 = document.getElementById('chevp3');
+
+box.addEventListener('click', function() {
+  chev1.classList.toggle('fa-chevron-down');
+  chev1.classList.toggle('fa-chevron-up');
+  chevp1.classList.toggle('flex');
+  chevp1.classList.toggle('hidden');
+  boxContainer.classList.toggle('h-[459px]');
+  boxContainer.classList.toggle('h-[359px]');
+});
+
+box1.addEventListener('click', function() {
+  chev2.classList.toggle('fa-chevron-down');
+  chev2.classList.toggle('fa-chevron-up');
+  chevp2.classList.toggle('flex');
+  chevp2.classList.toggle('hidden');
+  boxContainer.classList.toggle('h-[459px]');
+  boxContainer.classList.toggle('h-[359px]');
+});
+
+box2.addEventListener('click', function() {
+  chev3.classList.toggle('fa-chevron-down');
+  chev3.classList.toggle('fa-chevron-up');
+  chevp3.classList.toggle('flex');
+  chevp3.classList.toggle('hidden');
+  boxContainer.classList.toggle('h-[459px]');
+  boxContainer.classList.toggle('h-[359px]');
+});
+
+var clickCount = 0;
+
+// function checkClick
+// boxContainer.addEventListener('click' function() {
+//   chevp1.remove();
+// });
+
+    </script>
+  </body>
+</html>
