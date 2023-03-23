@@ -9,7 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Fintekk</title>
   </head>
-  <body class="overflow-x-hidden">
+  <body class="overflow-x-hidden"  arialabelledby="home" id="home">
     <header class="sm:h-[122px] w-full">
       <div class="">
         <nav class="p-5  bg-white w-full mt-0 h-16 sm:h-28 md:h-[96px] md:m-auto sm:grid sm:grid-rows-2 z-10 sm:justify-center top-0 fixed sm:items-center md:flex md:justify-between">
@@ -25,13 +25,13 @@
           <div id="navigation" class="sm:flex text-[24x] sm:text-[18px] md:text-[24px] font-light sm:justify-center md:justify-between  sm-items-center z-[-1] sm:z-auto  sm:static absolute w-full left-0 sm:w-[700px] md:w-[1151px] md:m-auto sm:py-6 md:py-0 pt-36 pb-64 sm:opacity-100 h-[883px] sm:h-12 opacity-0 top-[-1000px] bg-white transition-all ease-in duration-500 cursor-pointer">
             <ul class="sm:flex m-auto md:ml-[171px] sm:w-[442px]">
                 <li class="mx-4 sm:mx-4 my-8 sm:my-0 md:my-0 text-center">
-                    <a class="" href="#about">Home</a>
+                    <a class="" href="#home">Home</a>
                 </li>
                 <li class="mx-4 sm:mx-4 my-8 sm:my-0 text-center">
-                    <a class="hover:text-zinc-400" href="#skills">About</a>
+                    <a class="hover:text-zinc-400" href="#about">About</a>
                 </li>
                 <li class="mx-4 sm:mx-4 my-8 sm:my-0 text-center">
-                    <a class="hover:text-zinc-400" href="#projects">FAQs</a>
+                    <a class="hover:text-zinc-400" href="#faq">FAQs</a>
                 </li>
                 <li class="mx-4 sm:mx-4 my-8 sm:my-0 text-center">
                     <a class="hover:text-zinc-400" href="#contacts">Contact Us</a>
@@ -52,10 +52,10 @@
 
     <main class="mt-24 text-center md:text-left relative">
       <!-- first group -->
-      <div class="md:grid grid-cols-2 md:h-[600px] md:mt-[80px]">
+      <div class="md:grid grid-cols-2 md:h-[600px] md:mt-[80px] md:mx-[120px]">
 
         <!-- first column -->
-        <div class="md:ml-[120px]">
+        <div>
           <div class="w-[314px] md:w-[503px] h-[168px] md:h-[255px] m-auto md:ml-0 md:mt-[30px] font-medium text-[38px] md:text-[67px] leading-[56px] md:leading-[85px]" style="color: #172E80; font-family: Product Sans Medium;">
             <p>Pay, Invest, Save your Cash with a single bank</p>
           </div>
@@ -78,16 +78,30 @@
         </div>
 
         <!-- second column -->
-        <div class="w-full sm:h-[328px] md:h-[600px] outline">
+        <div class="w-full sm:h-[328px] md:h-[600px]">
           <div class="mt-[95px] md:mt-0 bg-slate-100 rounded-3xl w-[280px] md:w-[500px] h-[328px] md:h-[600px] m-auto">
             <div class="grid grid-rows-3 h-[500px] bg-no-repeat bg-top w-full bg-[length:250px_328px] mt-[28p] lg:bg-auto lg:h-[600px] 2xl:w-full" style="background-image:url(img/background.png);">
+              <div class="absolute w-[365px] md:w-full h-[224px] md:h-[494px] ml-[-40px] mt-[65px] overflow-hidden md:overflow-visible">
+                <div class="absolute left-[225px] md:left-[378px] md:top-[60px]">
+                  <img src="img/Floating card 1.png" alt="" class="md:hidden">
+                  <img src="img/Floating card 33.png" alt="" class="hidden md:flex">
+                </div>
+                <div class="absolute top-[75px] md:top-[164px] md:left-[-130px]">
+                  <img src="img/Floating card 3.png" alt="" class="md:hidden">
+                  <img src="img/Floating card 22.png" alt="" class="hidden md:flex">
+                </div>
+                <div class="absolute top-[160px]  md:top-[388px] left-[205px] md:left-[314px]">
+                  <img src="img/Floating card 2.png" alt="" class="md:hidden">
+                  <img src="img/Floating card 11.png" alt="" class="hidden md:flex">
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <!-- second group -->
-      <div>
-        <div class="flex justify-between items-center mt-8 md:mt-16 md:px-[120px] h-[120px] w-full sm:w-[650px] md:w-full overflow-x-auto sm:overflow-x-hidden space-x-10">
+      <div  arialabelledby="about" id="about">
+        <div class="flex justify-between items-center mt-8 md:mt-16 px-[30px] md:px-[120px] h-[120px] w-full sm:w-[650px] md:w-full overflow-x-auto sm:overflow-x-hidden space-x-10">
           <img src="img/Group.png" alt="" class="w-[108px] md:w-[174px] h-[19px] md:h-[31px] ">
           <img src="img/CNBC logo.png" alt="" class="w-[31px] md:w-[43px] h-[24px] md:-[32px] ">
           <img src="img/Forbes logo.png" alt="" class="w-[72px] md:w-[144px] h-[24px] md:h-[48px] ">
@@ -101,7 +115,7 @@
         </div>
       </div>
 
-      <div class="mt-0 md:px-[120px]" style="background-color: #FBFBFB;">
+      <section class="mt-0 md:px-[120px]" style="background-color: #FBFBFB;">
         <div class="flex flex-col items-center justify-center mx-auto mt-[60px] md:mt-24 w-[300px] sm:w-full h-[171px]">
           <p class="w-[116px] sm:w-[158px] h-[19px] sm:h-[29px] my-[8px] font-normal text-[16px] sm:text-[24px] leading-[19px] sm:leading-[29px]">OUR SERVICES</p>
           <p class="w-[239px] sm:w-[315px] h-[46px] sm:h-[61px] my-[8px] font-medium text-[38px] sm:text-[50px] leading-[46px] sm:leading-[61px]" style="color: #172E80; font-family: product sans;">What we offer</p>
@@ -160,14 +174,14 @@
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       <div class="sm:grid grid-cols-2 mt-16 md:h-[1085px] md:w-full">
         <div class="mx-auto sm:mt-[187px]">
           <img src="img/Fintekk app- phone.png" alt="" class="w-[250px] md:w-[377px] h-[505px] md:h-[762px] mx-auto">
         </div>
         <div class="" style="font-family: product sans;">
-          <div class="w-[315px] md:w-[638px] h-[132px] md:h-36 mx-auto md:mx-0 mt-[80px] md:mt-24 font-medium text-[28px] md:text-[50px] leading-[44px] md:leading-[72px]" style="color: #172E80;">
+          <div class="w-[315px] sm:w-[330px] md:w-[638px] h-[132px] md:h-36 mx-auto md:mx-0 mt-[80px] md:mt-24 font-medium text-[28px] sm:text-left md:text-[50px] leading-[44px] md:leading-[72px]" style="color: #172E80;">
             <p class="px-[10px]">Start the journey to reach your financial goals today.</p>
           </div>
           <div class="flex w-[300px] md:w-[540px] gap-[28px] mt-12 mx-auto md:mx-[8px]">
@@ -209,7 +223,7 @@
         </div>
       </div>
 
-      <div class="mt-16 sm:flex sm:flex-row-reverse sm:items-center sm:justify-center">
+      <div class="mt-16 sm:flex sm:flex-row-reverse sm:items-center sm:justify-center" arialabelledby="faq" id="faq">
         <div class="w-full h-[424px] md:w-[658px] md:h-[745px]" style="background-color: #F9F9F9;">
           <img src="img/pana.png" alt="" class="w-[331px] h-[329px] md:w-[581px] md:h-[579px] m-auto md:my-[83px]">
         </div>
@@ -241,7 +255,7 @@
         </div>
       </div>
 
-      <div class="mt-16 md:mt-[120px] h-[644px] md:h-[418px] w-full md:px-[120px] md:flex">
+      <div class="mt-16 md:mt-[120px] h-[644px] md:h-[418px] w-full md:px-[120px] md:flex" >
         <div class="mt-[60px] md:mt-0 md:w-[604px] md:h-[221px]">
           <div class="mt-0 w-[107px] md:w-[161px] h-[19px] md:h-[29px] m-auto md:mx-0 md:mt-[10px] font-normal text-[16px] md:text-[24px] leading-[19px] md:leading-[29px]">
             <p>TESTIMONIALS</p>
@@ -308,7 +322,7 @@
             </div>
           </div>
           <!-- testimonials navigation -->
-          <div class="flex md:flex-col justify-between items-center w-[170px] md:w-4 h-4 md:h-[221px] mx-auto mt-[33px] md:mt-0"  style="color: #172E80;">
+          <div class="flex md:flex-col justify-between items-center w-[170px] md:w-4 h-4 md:h-[221px] mx-auto mt-[33px] md:mt-0"  style="color: #172E80;" arialabelledby="contacts" id="contacts">
             <img src="img/Arrow 6.png" alt="" class="md:rotate-90">
             <div class="">
               <p>1</p>
@@ -324,17 +338,17 @@
         </div>
       </div>
 
-      <div class="flex justify-center">
+      <section class="flex justify-center">
         <div class="w-[315px] md:w-[1200px] h-[368px] md:h-[380px] rounded-3xl" style="background-color: #2E5CFF;">
           <div class="w-[267px] md:w-[432px] h-[138px] md:h-[122px] mt-12 md:mt-[85px] mx-auto font-bold text-[38px] md:text-[50px] leading-[46px] md:leading-[61px] text-left md:text-center text-white">
             <p>Start growing your wealth today</p>
           </div>
           <div class="md:flex md:mt-[27px] md:w-[648px] md:h-[58px] md:mx-auto md:border-[1px] md:rounded-[30px]">
             <input type="email" placeholder="Enter your email address" class="bg-inherit w-[267px] md:w-full h-12 md:h-[58px] md:mt-0 mt-4 mx-auto md:ml-6 border-[1px] md:border-none md:outline-none rounded-xl my-4"></input>
-            <button type="button" class="flex justify-center items-center bg-white w-[117px] md:w-[135px] h-[51px] md:h-[58px] mt-4 md:mt-0 ml-6 font-medium text-[16px] md:text-[21px] leading-[19px] md:leading-[26px] rounded-2xl md:rounded-[30px] text-[#172E80]">Sign Up</button>
+            <button type="button" class="flex justify-center items-center bg-white w-[117px] md:w-[135px] h-[51px] md:h-[58px] mt-4 md:mt-0 ml-6 font-medium text-[16px] md:text-[18px] leading-[19px] md:leading-[26px] rounded-2xl md:rounded-[30px] text-[#172E80]">Sign Up</button>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer class=" absolute w-full text-[#172E80] font-light md:text-[20px] md:leading-[24px] h-[753px] md:h-[548px] mt-16 md:mt-[120px]">
@@ -346,27 +360,27 @@
         <div class="md:w-[660px] grid grid-cols-2 justify-center mx-[30px] md:ml-auto mt-[45px] md:flex md:justify-between">
           <div class="w-[117px] md:w-[146px]">
             <p class="font-medium text-[16px] md:text-[20px] leading-[19px] md:leading-[24px]">Company</p>
-            <p class="md:mt-6">Careers</p>
-            <p class="md:mt-6">About Us</p>
-            <p class="md:mt-6">Privacy</p>
-            <p class="md:mt-6">Terms</p>
+            <p class="mt-6">Careers</p>
+            <p class="mt-6">About Us</p>
+            <p class="mt-6">Privacy</p>
+            <p class="mt-6">Terms</p>
           </div>
           <div class="w-[117px] md:w-[146px] mx-auto md:mx-0">
             <p class="font-medium text-[16px] md:text-[20px] leading-[19px] md:leading-[24px]">Services</p>
-            <p class="md:mt-6">Payments</p>
-            <p class="md:mt-6">Investments</p>
-            <p class="md:mt-6">Savings Plan</p>
+            <p class="mt-6">Payments</p>
+            <p class="mt-6">Investments</p>
+            <p class="mt-6">Savings Plan</p>
           </div>
           <div class="w-[117px] md:w-[146px] mt-[35px] md:mt-0">
             <p class="font-medium text-[16px] md:text-[20px] leading-[19px] md:leading-[24px]">Resources</p>
-            <p class="md:mt-6">Media</p>
-            <p class="md:mt-6">FAQ's</p>
-            <p class="md:mt-6">Help Centre</p>
-            <p class="md:mt-6">Security</p>
+            <p class="mt-6">Media</p>
+            <p class="mt-6">FAQ's</p>
+            <p class="mt-6">Help Centre</p>
+            <p class="mt-6">Security</p>
           </div>
           <div class="w-[117px] md:w-[146px] mt-[35px] md:mt-0 mx-auto md:mx-0">
             <p class="font-medium text-[16px] md:text-[20px] leading-[19px] md:leading-[24px]">Contact Us</p>
-            <div class="md:mt-6">
+            <div class="mt-6">
               <a href="#">www.fintekk.com</a>
             </div>
           </div>
@@ -401,7 +415,7 @@ icon.addEventListener('click', function() {
     nav.classList.toggle('top-[-400px]');
     nav.classList.toggle('top-[80px]');
     main.classList.toggle('relative');
-    main.classList.toggle('fixed');
+    main.classList.toggle('static');
     nav.classList.toggle('z-[-1]');
     nav.classList.toggle('z-10')
 });
@@ -416,7 +430,7 @@ nav.addEventListener('click', function() {
     nav.classList.toggle('z-[-1]');
     icon.classList.toggle('fa-times');
     icon.classList.toggle('fa-bars');
-    main.classList.toggle('fixed');
+    main.classList.toggle('static');
     main.classList.toggle('relative');
 });
 
@@ -458,11 +472,26 @@ box2.addEventListener('click', function() {
   boxContainer.classList.toggle('h-[359px]');
 });
 
-var clickCount = 0;
 
-// function checkClick
-// boxContainer.addEventListener('click' function() {
-//   chevp1.remove();
+// boxContainer.addEventListener('click', function() {
+//   chev1.classList.toggle('fa-chevron-up');
+//   chev1.classList.toggle('fa-chevron-down');
+//   chevp1.classList.toggle('hidden');
+//   chevp1.classList.toggle('flex');
+//   boxContainer.classList.toggle('h-[359px]');
+//   boxContainer.classList.toggle('h-[459px]');
+//   chev2.classList.toggle('fa-chevron-up');
+//   chev2.classList.toggle('fa-chevron-down');
+//   chevp2.classList.toggle('hidden');
+//   chevp2.classList.toggle('flex');
+//   boxContainer.classList.toggle('h-[359px]');
+//   boxContainer.classList.toggle('h-[459px]');
+//   chev3.classList.toggle('fa-chevron-up');
+//   chev3.classList.toggle('fa-chevron-down');
+//   chevp3.classList.toggle('hidden');
+//   chevp3.classList.toggle('flex');
+//   boxContainer.classList.toggle('h-[359px]');
+//   boxContainer.classList.toggle('h-[459px]');
 // });
 
     </script>
