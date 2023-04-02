@@ -2,68 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.swiper-pagination-bullet {
-    text-align: center;
-    font-size: 12px;
-    width: 18px;
-    height: 18px;
-    background-color: #fff;
-    opacity: 1;
-}
+@font-face {
+    font-family: Light;
+    src: url('./fonts/ProductSans-Light.ttf');
+  };
 
-@media only screen and (min-width: 900px) {
-    .swiper-pagination-bullet {
-        font-size: 16px;
-        width: 24px;
-        height: 24px; 
-        text-align: center;
-    }
-}
+@font-face {
+    font-family: Medium;
+    src: url('./fonts/ProductSans-Medium.ttf');
+  };
 
-
-.swiper-pagination-bullet-active {
-    color: white;
-    background-color: #172E80;
-    font-weight: 700;
-}
-    .swiper-button-prev {
-    position: absolute;
-    top: 99%;
-    left: 30%;
-}
-
-@media only screen and (min-width: 900px) {
-    .swiper-button-prev {
-        top: 20%;
-        left: 96%
-
-    }
-}
-
-    .swiper-button-next {
-    position: absolute; 
-    top: 99%;
-    right: 30%;
-}
-
-@media only screen and (min-width: 900px) {
-    .swiper-button-next {
-        top: 90%;
-        left: 96%;
-
-    }
-}
-
-
-/* @media only screen and (min-width: 900px) {
-    .nav-container {
-        display: flex !important;
-        /* flex-direction: column !important;
-        justify-content: space-between !important;
-        position: absolute !important;
-        left: 90% !important;
-        top: 5%;
-
-
-    }
-} */
+@font-face {
+    font-family: Bold;
+    src: url('./fonts/ProductSans-Bold.ttf');
+  };
